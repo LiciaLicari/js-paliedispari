@@ -42,22 +42,25 @@ console.log(botNumber);
 
 // Sommiamo i due numeri 
 
- function sumBotPlayer(BOT, player) {
-        return BOT + player; 
+ function sumBotPlayer(botNumber, playerNumber) {
+        return botNumber + playerNumber; 
     }
 
     let sum = sumBotPlayer(botNumber, playerNumber);
-    console.log(sum);
+    console.log(sumBotPlayer);
+
+    
 
     let isEven = sum % 2 === 0;
+  
 
-    // if (isEven ) {
-    //     sum = isEven
-    // } else {
-    //     sum = odd
-    // }
+    // if ((botNumber + playerNumber) % 2 == 0 )  {
+    //      sum = isEven
+    //  } else {
+    //      sum = odd
+    //  }
 
-    // console.log(sum);
+    //  console.log(sum);
 
     //chi ha vinto?
 
