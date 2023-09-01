@@ -49,25 +49,22 @@ console.log(botNumber);
     let sum = sumBotPlayer(botNumber, playerNumber);
     console.log(sum);
 
+    let isEven = sum % 2 === 0;
 
+    // if (isEven ) {
+    //     sum = isEven
+    // } else {
+    //     sum = odd
+    // }
 
-    even = 'true';
-    odd = 'false';
-
-    if (sum % 2 === 0) {
-        sum = even
-    } else {
-        sum = odd
-    }
-
-    console.log(sum);
+    // console.log(sum);
 
     //chi ha vinto?
 
-    if(sum == even && odd){
+    if(sum = isEven){
         console.log('Hai vinto!');
-        document.querySelector('.outcome').innerHTML = 'Hai vinto!'
+        document.querySelector('.outcome').innerHTML = 'You win!'
     }else {
         console.log('Hai perso!');
-        document.querySelector('.outcome').innerHTML = 'Hai perso!'
+        document.querySelector('.outcome').innerHTML = 'You lose!'
     }
